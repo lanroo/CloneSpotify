@@ -61,6 +61,14 @@ nav.navbar-transparente {
     padding: 10px 20px;
 }
 
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 18px;
+    left: 0;
+    z-index: 1030;
+}
+
 .btn-roxo {
 	background: #7c25f8;
 }
@@ -182,6 +190,9 @@ h3 {
 	.btn-custom {
 		margin: 10px 15px;
 		font-size: 1em;
+	}
+	nav.navbar.navbar-expand-md.navbar-light.fixed-top.navbar-transparente {
+               right: 2px;
 	}
 }
 
